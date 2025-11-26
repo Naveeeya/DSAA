@@ -1,36 +1,33 @@
 import java.util.*;
 
-class Solution {
+class solution {
     // Function to find all divisors
     public List<Integer> getDivisors(int N) {
-        // Create list to store divisors
         List<Integer> res = new ArrayList<>();
 
-        // Loop from 1 to N
-        for (int i = 1; i <= N; i++) {
-            // Check if i is a divisor of N
+        for (int i = 1; i * i <= N; i++) {
             if (N % i == 0) {
-                // Add i to the result
-                res.add(i);
+                res.add(i);            // smaller divisor
+
+                if (i != N / i) {      // avoid duplicate for perfect square
+                    res.add(N / i);    // larger divisor
+                }
             }
         }
-        // Return the list of divisors
-        return res;
+
+        Collections.sort(res); // sort in ascending order
+        return res;            // return list
     }
 }
 
-public class Main {
+public class printdivisors {
     public static void main(String[] args) {
-        // Create object of Solution class
-        Solution sol = new Solution();
+        solution sol = new solution();
 
-        // Input number
-        int N = 36;
+        int N = 36; // input number
 
-        // Call the function to get divisors
         List<Integer> result = sol.getDivisors(N);
 
-        // Print the result
         System.out.print("Divisors of " + N + ": ");
         for (int val : result) {
             System.out.print(val + " ");
