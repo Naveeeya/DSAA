@@ -1,6 +1,7 @@
 # 🚀 Data Structures & Algorithms (DSAA)
 
 ![Language](https://img.shields.io/badge/Language-Java-orange)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-12-blue?style=flat&logo=leetcode)
 ![Status](https://img.shields.io/badge/Status-Active-green)
 
 ## 👩‍💻 About
@@ -30,4 +31,4 @@ This repository is automatically synced from my local development environment us
 3. Changes appear here instantly.
 
 ---
-*Connect with me on [LinkedIn](https://linkedin.com/in/your-linkedin-id)*
+*Connect with me on [LinkedIn](https://linkedin.com/in/navyakhannaaa)*
