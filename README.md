@@ -1,7 +1,6 @@
 # 🚀 Data Structures & Algorithms (DSAA)
 
 ![Language](https://img.shields.io/badge/Language-Java-orange)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Naveeeya.DSAA)
 ![Problems Solved](https://img.shields.io/badge/Problems%20Solved-12-blue?style=flat&logo=leetcode)
 ![Status](https://img.shields.io/badge/Status-Active-green)
 
