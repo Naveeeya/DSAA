@@ -32,4 +32,4 @@ This repository is automatically synced from my local development environment us
 3. Changes appear here instantly.
 
 ---
-*Connect with me on [LinkedIn](https://linkedin.com/in/your-linkedin-id)*
+*Connect with me on [LinkedIn](https://linkedin.com/in/navyakhannaaa)*
